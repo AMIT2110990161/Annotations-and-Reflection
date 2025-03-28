@@ -9,11 +9,11 @@ public class Calculator {
         this.b = b;
     }
 
-    private int multiply(int a, int b){
-        return a*b;
+    private void multiply(int a, int b){
+        System.out.println("Multiplication of two numbers : " + (a*b));
     }
 
-    public int addition(int a, int b){
-        return a+b;
+    public void addition(){
+        System.out.println("Addition of two numbers is : " + (a+b));
     }
 }

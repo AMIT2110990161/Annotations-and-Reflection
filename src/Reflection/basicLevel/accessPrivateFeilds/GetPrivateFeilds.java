@@ -13,6 +13,6 @@ public class GetPrivateFeilds {
                 feild.set(myCat, "SidhaBilla");
             }
         }
-        myCat.getName();
+        System.out.println(myCat.getName());
     }
 }

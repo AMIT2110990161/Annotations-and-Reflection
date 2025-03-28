@@ -8,8 +8,9 @@ public class Math {
 
         Method[] mycl =  cl.getClass().getDeclaredMethods();
         for(Method mt:mycl){
-            if(mt.getName().equals("addition")){
-                mt.invoke(mycl, 2, 6);
+            if(mt.getName().equals("multiply")){
+                mt.setAccessible(true);
+                mt.invoke(cl, 2, 6);
             }
         }
     }
