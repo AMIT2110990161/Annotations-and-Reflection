@@ -11,7 +11,7 @@ public class GetInformation {
         Field[] catFields = myCat.getClass().getDeclaredFields();
         for(Field fields : catFields){
             System.out.println(fields.getName());
-        }
+        } 
 
         Method[] catMethods = myCat.getClass().getDeclaredMethods();
         for(Method method:catMethods){
